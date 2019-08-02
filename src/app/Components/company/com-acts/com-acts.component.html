@@ -1,0 +1,72 @@
+<div class = "panel panel-primary"> 
+    
+  <div class = "panel-heading">
+        {{pageTitle}}
+    </div>
+    <div class = "panel-body" >
+            
+                    <div class = "panel-heading">
+                    </div>
+                    <div class = "panel-body" >
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Add Coupon</h5>
+                              <p class="card-text">Allows you to add coupon to the system so customers will be able to purchase it.</p>
+                              <a [routerLink] = "['AddCoupon']" class="btn btn-primary">Add</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Remove Coupon</h5>
+                              <p class="card-text">Allows you to reomove coupon from the system so it will no longer be available for purchase.</p>
+                              <a [routerLink] = "['RemoveCoupon']" class="btn btn-primary">Remove</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Update Coupon</h5>
+                              <p class="card-text">Allows you to update coupon details in the system.</p>
+                              <a [routerLink] = "['UpdateCoupon']" class="btn btn-primary">Update</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">View Coupon</h5>
+                              <p class="card-text">Allows you to view specific coupon which belongs to you in the system.</p>
+                              <a [routerLink] = "['ViewCoupon']" class="btn btn-primary">View</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">View All Coupons</h5>
+                              <p class="card-text">Allows you to view all coupons which belong to you in the system.</p>
+                              <a [routerLink] = "['ViewAllCoupons']" class="btn btn-primary">View All</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">View All Coupons By Type</h5>
+                                <p class="card-text">Allows you to view all coupons which belong to you in the system by specific type.</p>
+                                <a [routerLink] = "['ViewAllCouponsByType']" class="btn btn-primary">View All</a>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">View All Coupons By Price</h5>
+                                  <p class="card-text">Allows you to view all coupons which belong to you in the system by specific price limit.</p>
+                                  <a [routerLink] = "['ViewAllCouponsByPrice']" class="btn btn-primary">View All</a>
+                                </div>
+                              </div>
+                              <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">View All Coupons By Date</h5>
+                                    <p class="card-text">Allows you to view all coupons which belong to you in the system by specific date limit.</p>
+                                    <a [routerLink] = "['ViewAllCouponsByDate']" class="btn btn-primary">View All</a>
+                                  </div>
+                                </div>
+                </div>
+                <router-outlet></router-outlet>  
+                
+                
+    </div>
+</div>

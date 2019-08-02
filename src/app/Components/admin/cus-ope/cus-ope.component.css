@@ -1,0 +1,16 @@
+.card{
+    border: 2px solid #337AB7 ;
+    float: left;
+    margin: 5px;
+    padding: 2px;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+
+  .card {
+    width: 18rem;
+    height: 18rem;
+  }
+

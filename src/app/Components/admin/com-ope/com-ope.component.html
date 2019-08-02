@@ -1,0 +1,50 @@
+<div class = "panel panel-primary"> 
+        <div class = "panel-heading">
+            {{pageTitle}}
+        </div>
+        <div class = "panel-body" >
+                
+                        <div class = "panel-heading">
+                        </div>
+                        <div class = "panel-body" >
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Add Compnay</h5>
+                                  <p class="card-text">Allows you to add company to the system so that the compnay will be able to create coupons.</p>
+                                  <a [routerLink] = "['AddCompany']" class="btn btn-primary">Add</a>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Remove Company</h5>
+                                  <p class="card-text">Allows you to reomove company from the system When the company completes the contract.</p>
+                                  <a [routerLink] = "['RemoveCompany']" class="btn btn-primary">Remove</a>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Update Company</h5>
+                                  <p class="card-text">Allows you to update company details in the system.</p>
+                                  <a [routerLink] = "['UpdateCompany']" class="btn btn-primary">Update</a>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">View All Companies</h5>
+                                  <p class="card-text">Allows you to view all the companies that have an active contract in the system.</p>
+                                  <a [routerLink] = "['ViewAllCompanies']" class="btn btn-primary">View All</a>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">View Company</h5>
+                                  <p class="card-text">Allows you to view specific company that have an active contract in the system.</p>
+                                  <a [routerLink] = "['ViewCompany']" class="btn btn-primary">View</a>
+                                </div>
+                              </div>
+                    </div>
+                    <router-outlet></router-outlet>  
+                    
+                    
+        </div>
+    </div>

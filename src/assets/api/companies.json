@@ -1,0 +1,32 @@
+ [
+        {
+            "companyEmail": "israel@dell.com",
+            "companyId": "9876",
+            "companyName": "Dell",
+            "companyPassword": "Dell9876"
+        },
+        {
+            "companyEmail": "israel@discount.com",
+            "companyId": "5791",
+            "companyName": "Discount",
+            "companyPassword": "Discount5791"
+        },
+        {
+            "companyEmail": "israel@Hapoalim.com",
+            "companyId": "9912",
+            "companyName": "Hapoali912",
+            "companyPassword": "99Hapoalim99"
+        },
+        {
+            "companyEmail": "israel@Hapoalim.com",
+            "companyId": "9910",
+            "companyName": "Hapoali910",
+            "companyPassword": "99Hapoalim99"
+        },
+        {
+            "companyEmail": "israel@Hapoalim.com",
+            "companyId": "9913",
+            "companyName": "Hapoali913",
+            "companyPassword": "99Hapoalim93"
+        }
+    ]

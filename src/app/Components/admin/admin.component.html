@@ -1,0 +1,16 @@
+<div *ngIf = "adminLoginStatus">
+        <nav class = 'navbar navbar-default'>
+            <div class='container-fluid'>
+                <a class = 'navbar-brand'>{{pageTitle}}</a>
+                <ul class = 'nav navbar-nav'>
+                    <li><a [routerLink]= "['Details']">Details</a></li>
+                    <li><a [routerLink]= "['CompanyOperations']">Company Operations</a></li>
+                    <li><a [routerLink] = "['CustomerOperations']">Customer Operations</a></li>
+                    <li><a (click)= "logOut()">Log Out</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class = 'container'>
+            <router-outlet></router-outlet>
+        </div> 
+    </div>

@@ -1,0 +1,50 @@
+<div class = "panel panel-primary"> 
+    <div class = "panel-heading">
+        {{pageTitle}}
+    </div>
+    <div class = "panel-body" >
+            
+                    <div class = "panel-heading">
+                    </div>
+                    <div class = "panel-body" >
+                        <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Add Customer</h5>
+                              <p class="card-text">Allows you to add customer to the system so that the customer will be able to purchase coupons.</p>
+                              <a [routerLink] = "['AddCustomer']" class="btn btn-primary">Add</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Remove Customer</h5>
+                              <p class="card-text">Allows you to reomove customer from the system When the customer ask to terminate the contract.</p>
+                              <a [routerLink] = "['RemoveCustomer']" class="btn btn-primary">Remove</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Update Customer</h5>
+                              <p class="card-text">Allows you to update Customer details in the system.</p>
+                              <a [routerLink] = "['UpdateCustomer']" class="btn btn-primary">Update</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">View All Customers</h5>
+                              <p class="card-text">Allows you to view all the customers that have an active contract in the system.</p>
+                              <a [routerLink] = "['ViewAllCustomers']" class="btn btn-primary">View All</a>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">View Customer</h5>
+                              <p class="card-text">Allows you to view specific customer that have an active contract in the system.</p>
+                              <a [routerLink] = "['ViewCustomer']" class="btn btn-primary">View</a>
+                            </div>
+                          </div>
+                </div>
+                <router-outlet></router-outlet>  
+                
+                
+    </div>
+</div>
